@@ -89,68 +89,99 @@ export default {
 
   data() {
     return {
-      "mission_slug": "001",
+      "mission_slug": "004",
       "current_md": "",
       "events": "",
       "missions": [
         {
           "slug": "001",
-          "name": "Bug-Hunt",
+          "name": "Defend-Oneida",
+          "status": "success"
+        },
+        {
+          "slug": "002",
+          "name": "Patient-Wastes",
+          "status": "success"
+        },
+        {
+          "slug": "003",
+          "name": "Dark-Thorn",
+          "status": "success"
+        },
+        {
+          "slug": "004",
+          "name": "Recursion",
           "status": "start"
         },
       ],
       "pilots": [
         {
-          "callsign": "Jinzo",
-          "alias": "Shayan Arsenal",
+          "callsign": "Packrat",
+          "alias": "Oleg Sifter",
           "code": "462370be-bd0f-41c2-b667-cc75f3a59a96///NDL-C-DEEP-STATION//377308ad-ba23-410b-ae37-68a1fb5f8db4",
-          "corpro": "GMS",
-          "frame": "Everest",
-          "mech": "Type - Worst Beat"
+          "corpro": "Harrison Armory",
+          "frame": "Sherman",
+          "mech": "Hot Pocket"
         },
         {
-          "callsign": "Kal",
-          "alias": "Vier Flau",
+          "callsign": "Firefly",
+          "alias": "Jemma Wallace",
           "code": "7cd700cc-c990-48ed-892f-e5468de724c4///NDL-C-DEEP-STATION//a98c3e28-ad4a-4f89-bcd9-501464e960da",
-          "corpro": "GMS",
-          "frame": "Everest",
-          "mech": "Necrophile"
+          "corpro": "SSC",
+          "frame": "Mourning Cloak",
+          "mech": "Immovable Object"
         },
         {
-          "callsign": "Starboard",
-          "alias": "Maria",
+          "callsign": "Show Stopper",
+          "alias": "Mikki Hixon",
           "code": "4be26ce9-923b-4069-b6c9-76437d4be455///NDL-C-DEEP-STATION//056940c6-8d55-4190-8e85-57caa043cb1a",
           "corpro": "GMS",
           "frame": "Everest",
-          "mech": "Scarlet Judicator"
+          "mech": "Showstopper Unknown"
         },
         {
-          "callsign": "Badlands",
-          "alias": "Marlene Gatsby",
+          "callsign": "Knight",
+          "alias": "Katarina Reckley",
           "code": "98ca9616-044e-4f87-b89b-aae4eb3387ec///NDL-C-DEEP-STATION//6f572259-6946-41bf-931a-e0543709e892",
-          "corpro": "GMS",
-          "frame": "Everest",
-          "mech": "Mayfly"
+          "corpro": "SSC",
+          "frame": "Metalmark",
+          "mech": "[DATA] Memories"
         },
         {
-          "callsign": "Compadre",
-          "alias": 'Clint "CC" Cruz',
+          "callsign": "Virgil",
+          "alias": "Subject 067",
           "code": "d1fdf62e-d81e-4e10-97c8-df3bc4860117///NDL-C-DEEP-STATION//5a4254aa-9fa2-42ca-a077-8f5bfd1e1ad3",
-          "corpro": "GMS",
-          "frame": "Everest",
-          "mech": "Rio Bravo"
+          "corpro": "HA",
+          "frame": "Enkidu",
+          "mech": "Disciple"
+        },
+        {
+          "callsign": "Toni",
+          "alias": "Antoni Moretti",
+          "code": "d1fdf62e-d81e-4e10-97c8-df3bc4860117///NDL-C-DEEP-STATION//5a4254aa-9fa2-42ca-a077-8f5bfd1e1ad3",
+          "corpro": "IPS-N",
+          "frame": "Tortuga",
+          "mech": "Union Dues"
+        },
+        {
+          "callsign": "Tantalus",
+          "alias": "Fitchner Trenchen",
+          "code": "4be26ce9-923b-4069-b6c9-76437d4be455///NDL-C-DEEP-STATION//056940c6-8d55-4190-8e85-57caa043cb1a",
+          "corpro": "Horus",
+          "frame": "Goblin",
+          "mech": "King Midas"
         },
       ],
       "header": {
-        "planet": "Hercynia",
-        "year": "5014u",
-        "system": "Ardennes-3",
+        "planet": "Sif",
+        "year": "5016u",
+        "system": "Aesir-Reach-1",
         "gate": "Atlas-Quanokrim",
         "ring": "Atlas-Line",
-        "headerTitle": "Mirrorsmoke",
-        "headerSubtitle": "Mercenary Company",
-        "subheaderTitle": "Crisis Response",
-        "subheaderSubtitle": "Delta-Echo-Echo-Zulu",
+        "headerTitle": "Hand of Tyr",
+        "headerSubtitle": "Planetary Defense",
+        "subheaderTitle": "Reserve Squad",
+        "subheaderSubtitle": "November-Golf-Romeo-7",
       },
       "options":{
         "eventsMarkdownPerMission": true
